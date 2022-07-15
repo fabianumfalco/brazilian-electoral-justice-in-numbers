@@ -8,11 +8,6 @@ class JusticeNumbers:
         self.branch = branch
 
     def loadNewCases(self):
-        # new cases (lawsuits)
-        # df_cn_3g = pd.read_excel("../painelcnj/gestao-judiciaria/Novos-TSE.xlsx",
-        #                          dtype={'JN - Ano': np.int32, 'Valor': np.int32})
-        # df_cn_2g1g = pd.read_excel("../painelcnj/gestao-judiciaria/Novos-TRE.xlsx",
-        #                            dtype={'JN - Ano': np.int32, 'Valor': np.int32})
         df_cn_3g = pd.read_excel("../painelcnj/indicadores/Cn-3g.xlsx", usecols = ['JN - Ano', 'Total'],
                     thousands = '.', converters = {'JN - Ano': np.int32, 'Total': np.int32})
         df_cn_3g.insert(0, 'instance', '3')
@@ -201,7 +196,6 @@ class JusticeNumbers:
         # Merge Datasets
         df_result = pd.merge(df_rint, df_rintj,  how="outer", on=["instance", "year"])
         df_result = df_result.merge(df_rintp,  how="outer", on=["instance", "year"])
-        # df_result = df_result.merge(df_cnelet, how="outer", on=["instance", "year"])
         # df_result = df_result.fillna(-1)
 
         return df_result
@@ -243,13 +237,9 @@ class JusticeNumbers:
 
         # Merge Datasets
         df_result = pd.merge(df_mag, df_sajud,  how="outer", on=["instance", "year"])
-        # df_result = df_result.merge(df_rintp,  how="outer", on=["instance", "year"])
-        # df_result = df_result.merge(df_cnelet, how="outer", on=["instance", "year"])
         # df_result = df_result.fillna(-1)
 
         return df_result
-
-
 
 
 if __name__ == "__main__":
