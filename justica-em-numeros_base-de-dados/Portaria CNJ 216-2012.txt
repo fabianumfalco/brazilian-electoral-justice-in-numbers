@@ -1,0 +1,39 @@
+URL: https://www.cnj.jus.br/pesquisas-judiciarias/justica-em-numeros/base-de-dados/
+
+PORTARIA No 216, DE 19 DE DEZEMBRO DE 2012
+
+Regulamenta o acesso público ao banco de dados do “Sistema de Estatísticas do Poder Judiciário”.
+
+O PRESIDENTE DO CONSELHO NACIONAL DE JUSTIÇA, no uso de suas atribuições legais e regimentais,
+
+Considerando o que dispõe o art. 3º da Lei nº 12.527, de 18 de novembro de 2011, que regula o acesso a informações;
+Considerando a Resolução CNJ nº 76, de 12 de maio de 2009, que dispõe sobre o Sistema de Estatísticas do Poder Judiciário (SIESPJ);
+
+RESOLVE:
+
+Art. 1o O banco de dados do Sistema de Estatísticas do Poder Judiciário (SIESPJ) fica disponível para consulta pública de forma permanente.
+Parágrafo único. Os dados constantes do Sistema de Estatísticas do Poder Judiciário (SIESPJ) disponíveis ao público serão aqueles informados pelos Tribunais, na forma da Resolução CNJ nº 76/2009.
+
+Art. 2o O banco de dados do Sistema de Estatística do Poder Judiciário será atualizado conforme a publicação do Relatório Justiça em Números.
+Parágrafo único. Fica garantida aos interessados a busca de informações mais atualizadas junto aos Tribunais.
+
+Art. 3o Quanto ao formato do arquivo que será disponibilizado para consulta pública:
+I – O arquivo será disponibilizado no formato csv (comma separeted values), separado por ponto e vírgula;
+II – Os arquivos serão disponibilizados por ramo de Justiça, com os dados de cada Tribunal e ano de referência, desde 2009.
+III – Os nomes dos campos estarão dispostos na primeira linha e obedecerão as siglas constantes nos anexos da Resolução CNJ nº 76/2009;
+IV – O nome do arquivo deverá conter a data da última atualização.
+
+Art. 4o A consulta pública ao banco de dados do SIESP estará disponível no sítio eletrônico do Conselho Nacional de Justiça (CNJ), no portal do Departamento de Pesquisas Judiciárias.
+
+Art. 5o O banco de dados restringe-se às variáveis e indicadores dispostos nos anexos da Resolução CNJ nº 76/2009.
+Parágrafo Único. O Departamento de Pesquisas Judiciárias não se responsabiliza pelo uso indevido das informações disponibilizadas.
+
+Art. 6o Esta Portaria entra em vigor na data de sua publicação.
+
+Ministro Joaquim Barbosa
+Presidente
+
+
+Base de dados (a partir de 2009): https://www.cnj.jus.br/download/4431/justica-em-numeros/164453/05-nov-2021
+
+Base de dados de 2004 a 2008 (resolução CNJ n. 15 - https://atos.cnj.jus.br/atos/detalhar/atos-normativos?documento=210): https://www.cnj.jus.br/wp-content/uploads/2013/01/fc587d0cef86f585d6872a4f0ff43107.zip
