@@ -1,3 +1,5 @@
 # Ignore a pasta do PyCharm
 /.idea
 .idea/*
+/dadosabertos.tse.jus.br/Processual2020/*/*.csv
+/dadosabertos.tse.jus.br/Processual2020/*/*.pdf
