@@ -4,3 +4,6 @@
 # Ignore the unzipped contents of the ZIP files as some files are huge and they are over 100MB, the maximum limit allowed by GitHub
 /dadosabertos.tse.jus.br/*/*.csv
 /dadosabertos.tse.jus.br/*/*.pdf
+
+.ipynb_checkpoints/*
+
