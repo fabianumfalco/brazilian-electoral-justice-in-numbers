@@ -93,13 +93,13 @@ class JusticeNumbers:
         df_tbaix.set_index(['instance', 'year'], inplace=True)
 
         # pendent cases
-        df_cp_3g = pd.read_excel("painelcnj/indicadores/Dec-3g.xlsx", usecols = ['JN - Ano', 'Total'],
+        df_cp_3g = pd.read_excel("painelcnj/indicadores/Cp-3g.xlsx", usecols = ['JN - Ano', 'Total'],
                     thousands = '.', converters = {'JN - Ano': np.int32, 'Total': np.int32})
         df_cp_3g.insert(0, 'instance', '3')
-        df_cp_2g = pd.read_excel("painelcnj/indicadores/Dec-2g.xlsx", usecols = ['JN - Ano', 'Total'],
+        df_cp_2g = pd.read_excel("painelcnj/indicadores/Cp-2g.xlsx", usecols = ['JN - Ano', 'Total'],
                     thousands = '.', converters = {'JN - Ano': np.int32, 'Total': np.int32})
         df_cp_2g.insert(0, 'instance', '2')
-        df_cp_1g = pd.read_excel("painelcnj/indicadores/Dec-1g.xlsx", usecols = ['JN - Ano', 'Total'],
+        df_cp_1g = pd.read_excel("painelcnj/indicadores/Cp-1g.xlsx", usecols = ['JN - Ano', 'Total'],
                     thousands = '.', converters = {'JN - Ano': np.int32, 'Total': np.int32})
         df_cp_1g.insert(0, 'instance', '1')
 
@@ -108,13 +108,13 @@ class JusticeNumbers:
         df_cp.set_index(['instance', 'year'], inplace=True)
 
         # decision cases
-        df_dec_3g = pd.read_excel("painelcnj/indicadores/Cp-3g.xlsx", usecols = ['JN - Ano', 'Total'],
+        df_dec_3g = pd.read_excel("painelcnj/indicadores/Dec-3g.xlsx", usecols = ['JN - Ano', 'Total'],
                     thousands = '.', converters = {'JN - Ano': np.int32, 'Total': np.int32})
         df_dec_3g.insert(0, 'instance', '3')
-        df_dec_2g = pd.read_excel("painelcnj/indicadores/Cp-2g.xlsx", usecols = ['JN - Ano', 'Total'],
+        df_dec_2g = pd.read_excel("painelcnj/indicadores/Dec-2g.xlsx", usecols = ['JN - Ano', 'Total'],
                     thousands = '.', converters = {'JN - Ano': np.int32, 'Total': np.int32})
         df_dec_2g.insert(0, 'instance', '2')
-        df_dec_1g = pd.read_excel("painelcnj/indicadores/Cp-1g.xlsx", usecols = ['JN - Ano', 'Total'],
+        df_dec_1g = pd.read_excel("painelcnj/indicadores/Dec-1g.xlsx", usecols = ['JN - Ano', 'Total'],
                     thousands = '.', converters = {'JN - Ano': np.int32, 'Total': np.int32})
         df_dec_1g.insert(0, 'instance', '1')
 
